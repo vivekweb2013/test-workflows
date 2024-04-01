@@ -9,7 +9,7 @@ describe("Render the main page correctly", async () => {
   it("Should render the page correctly", async () => {
     // Setup
     render(<App />);
-    const text = await screen.queryByText("Vite + React");
+    const text = await screen.queryByText("Vite + Reacta");
 
     // Expectations
     expect(text).toBeInTheDocument();
